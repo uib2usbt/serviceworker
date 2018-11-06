@@ -1,5 +1,10 @@
 firebase.initializeApp({
-    messagingSenderId: '312853266324'
+    apiKey: "AIzaSyDTSx6b1Yw93zZ2x-6gXopLUsDvBQdLS08",
+    authDomain: "usbfcmtest.firebaseapp.com",
+    databaseURL: "https://usbfcmtest.firebaseio.com",
+    projectId: "usbfcmtest",
+    storageBucket: "usbfcmtest.appspot.com",
+    messagingSenderId: "312853266324"
 });
 
 
