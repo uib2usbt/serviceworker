@@ -2,7 +2,12 @@ importScripts('https://www.gstatic.com/firebasejs/3.7.2/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/3.7.2/firebase-messaging.js');
 
 firebase.initializeApp({
-  messagingSenderId: '312853266324'
+    apiKey: "AIzaSyDTSx6b1Yw93zZ2x-6gXopLUsDvBQdLS08",
+    authDomain: "usbfcmtest.firebaseapp.com",
+    databaseURL: "https://usbfcmtest.firebaseio.com",
+    projectId: "usbfcmtest",
+    storageBucket: "usbfcmtest.appspot.com",
+    messagingSenderId: "312853266324"
 });
 
 const messaging = firebase.messaging();
