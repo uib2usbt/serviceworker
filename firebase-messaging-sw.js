@@ -12,6 +12,9 @@ firebase.initializeApp({
 
 const messaging = firebase.messaging();
 
+messaging.usePublicVapidKey('BBA5Ax5AA3MC5p3TOLB3p7P0fdCoPLAsT5dvB2JbQcayoRBYW8rYo9Pw68jmUb5DRY2liKwrHis9EBi-XmJaN_k');
+
+
 // Customize notification handler
 messaging.setBackgroundMessageHandler(function(payload) {
   console.log('Handling background message', payload);
